@@ -1,0 +1,299 @@
+header, main, nav, footer, figure, figcaption, aside, section, article { display: block; }
+
+body {
+	background-color: #90C7E3;
+	font-weight: bold;
+}
+
+.sansserif {
+  	font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+	color: #FFFFFF;
+	background-color: #344873;
+	height: 120px;
+	text-align: center;
+	padding-top: 30px;
+	padding-left: 3em;
+	
+	}
+
+nav {
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	font-size: 120%;
+	float: left;
+	width: 160px;
+
+}
+
+nav a {
+	text-decoration: none;
+	
+}
+
+h1 {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 3em;
+	letter-spacing: .25em;
+}
+
+h2 {
+	color: #3399CC;
+	font-family: Georgia, "Times New Roman", serif;
+	text-shadow: 1px 1px 1px #CCCCCC;
+}
+
+h3 {
+	font-family: Georgia, "Times New Roman", serif;
+	color: #000033;
+}
+
+dt {
+	color: #000033;
+}
+
+.resort {
+	color: #5C7FA3;
+	font-weight: bold;
+}
+
+h1 {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+main ul {
+	list-style-image: url('marker.gif');
+}
+
+footer {
+	font-size: 75%;
+	font-style: italic;
+	text-align: center;
+	font-family: Georgia, "Times New Roman", serif;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 190px;
+	background-color: #FFFFFF;
+}
+
+#id {
+	font-size: 90%;
+}
+
+#wrapper {
+	width: 80%;
+	background-color: #90C7E3;
+	min-width: 960px;
+	max-width: 2048px;
+	border-style: solid;
+	border-width: 1px;
+	background-image: linear-gradient(#FFFFFF,#90C7E3);
+	margin: auto;
+}
+
+main {
+	padding-top: 1px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 20px;
+	display: block;
+	background-color: #FFFFFF;
+	margin-left: 190px;
+}
+
+#homehero {
+	height: 300px;
+	background-image: url(coast2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin-left: 190px;
+
+}
+
+#yurthero {
+	height: 300px;
+	background-image: url(yurt.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin-left: 190px;
+}
+
+#trailhero {
+	height: 300px;
+	background-image: url(trail.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin-left: 190px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+nav a:link {
+	color: #5C7FA3;
+}
+
+nav a:visited {
+	color: #344873;
+}
+
+nav a:hover {
+	color: #A52A2A;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-size: 1.2em;
+}
+
+#mobile {
+	display: none;
+}
+
+#desktop {
+	display: inline;
+}
+
+label {
+	float: left;
+	display: block;
+	text-align: right;
+	width: 120px;
+	padding-right: 10px;
+}
+
+input {
+	display: block;
+	margin-bottom: 20px;
+}
+
+textarea {
+	display: block;
+	margin-bottom: 20px;
+}
+
+input[type="submit"] {
+	margin-left: 130px
+}
+
+
+
+@media only screen and (max-width: 64em) {
+body {
+	margin: 0px;
+	background-color: #FFFFFF;
+}
+
+#wrapper {
+	min-width: 0px;
+	width: auto;
+	box-shadow: none;
+	padding-left: 0px;
+	height: auto;
+}
+
+h1 {
+	letter-spacing: .1em;
+}
+
+main {
+	margin-left: 0;
+}
+
+nav {
+	float: none;
+	width: auto;
+	text-align: center;
+	padding: .5em .5em .5em .5em;
+}
+
+nav li {
+	display: inline;
+	padding-top: .25em;
+	padding-bottom: .25em;
+	padding-left: .75em;
+	padding-right: .75em;
+}
+
+#homehero {
+	margin-left: 0;
+	height: 200px;
+}
+
+#yurthero {
+	margin-left: 0;
+	height: 200px;
+}
+
+#trailhero {
+	margin-left: 0;
+	height: 200px;
+}
+
+footer {
+	margin-left: 0;
+}
+}
+
+@media only screen and (max-width: 37.5em) {
+main {
+	padding-top: .1em;
+	padding-bottom: .1em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+nav {
+	padding: 0px;
+}
+
+nav li {
+	display: block;
+	margin: 0px;
+	border-bottom: 2px #330000;
+}
+
+nav a {
+	display: block;	
+}
+
+#homehero {
+	background-image: none;
+	height: 0px;
+}
+
+#yurthero {
+	background-image: none;
+	height: 0px;
+}
+
+#trailhero {
+	background-image: none;
+	height: 0px;
+}
+
+label {
+	float: none;
+        text-align: left;
+}
+
+input[type="submit"] {
+	margin-left: 0;
+}
+}
+
+

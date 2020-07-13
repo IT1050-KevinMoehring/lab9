@@ -1,0 +1,79 @@
+<!Doctype html>
+<html>
+    <div id ="wrapper">
+	<head>
+        <title>Pacific Trails Resort :: Reservations</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="pacific.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Pacific Trails Resort</h1>
+        </header>
+        <nav>
+            <a href="index.html"><b>Home &nbsp;</b></a>
+            <a href="yurts.html"><b>Yurts &nbsp;</b></a>
+            <a href="activities.html"><b>Activities &nbsp;</b></a>
+            <a href="reservations.html"><b>Reservations</b></a>
+        </nav>
+        <main>
+            <h2>Reservations at Pacific Trail</h2>
+		<h3>Contact Us Today!</h3>
+		<p>Required fields are marked with an asterisk *</p>
+		<form method="post" action="http://webdevbasics.net/scripts/pacific.php" value="FirstName">
+			<label for="myFName">
+				*First Name
+			</label>
+			<input type="text" name="First Name" placeholder="Enter your First Name" id="myFName" required/>
+		</form><br><br>
+		<form method="post" action="http://webdevbasics.net/scripts/pacific.php" value="LastName">
+			<label for="myLName">
+				*Last Name
+			</label>
+			<input type="text" name="Last Name" placeholder="Enter your Last Name" id="myLName" required/>		
+		</form><br><br>
+		<form method="post" action="http://webdevbasics.net/scripts/pacific.php" value="Phone" maxlength="12">
+			<label for="myPhone">
+				Phone Number
+			</label>
+			<input type="tel" name="Phone" placeholder="Phone number" id="Phone"/>
+			
+		</form><br><br>
+		<form method="post" action="http://webdevbasics.net/scripts/pacific.php" value="Phone" maxlength="12">
+			<label for="myPhone">
+				*Email
+			</label>
+			<input type="tel" name="email" placeholder="Enter your email" id="myEmail" required/>
+			
+		</form><br><br>
+		<form method="post" action="http://webdevbasics.net/scripts/pacific.php" id="ArrivalDate">
+			<label for="ArrivalDate">
+				Arrival Date
+			</label>
+			<input type="date" name="ArrivalDate" placeholder="ArrivalDate" id="ArrivalDate"/>
+		</form><br><br>
+		<form method="post" action="http://webdevbasics.net/scripts/pacific.php" id="Nights">
+			<label for="Nights">
+				Nights
+			</label>
+			<input type="number" min="1" max="14" step="1" value="1" size="6" id="Nights"/>
+		</form><br><br>
+		<label for="myComments">
+			Comments
+		</label>
+		<textarea id=myComments name="myComments" rows="2" cols="30">
+		</textarea><br><br>
+		<form method="post" action="http://webdevbasics.net/scripts/pacific.php" value="Submit" id="Submit">
+			<input type="button" name="Submit" value="Submit" id="Comments"/>
+		</form><br><br>
+            <div>
+                <p><span class="resort">Pacific Trails Resort</span><br>12010 Pacific Trails Road<br>Zephyr, CA 95555<br><a href="tel:888-555-5555">888-555-5555</a></p><span id="desktop">888-555-5555</span>
+            </div>
+        </main>
+        <footer>
+<div id="contact">
+            <p><i>Copyright &copy; 2018 Pacific Trails resort</i><br>Kevin Moehring</p>
+</div>
+        </footer>
+    </body>
+	</div>
